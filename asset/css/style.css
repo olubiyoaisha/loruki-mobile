@@ -284,9 +284,11 @@ pre {
   .showcase .grid,
   .stats .grid,
   .cli .grid,
-  .cloud .grid .features-main .grid .doc-main .grid {
+  .cloud .grid ,
+  .features-main .grid,
+  .doc-main .grid {
     grid-template-columns: 1fr;
-    grid: template rows 1fr;
+    grid-template-rows :1fr;
   }
 
   .showcase {
